@@ -1,14 +1,15 @@
-// Keywords in Java
+// Identifier Naming in Java
 
 public class main {
   
   public static void main(String[] args) {
-    String Class = "COSC237";
-    String Meeting_time = "Tues/Thurs 9:30-10:45am";
-    String Final = "Thursday December 14th, 8:00-10:00am";
-    
-    System.out.println("CLASS: " + Class);
-    System.out.println("MEETING TIME: " + Meeting_time);
-    System.out.println("FINAL EXAM DATE: " + Final);
+    int first_num = 1;
+    int last_num = 10;
+    int sum = 0;
+
+    for(int i = first_num; i <= last_num; i++)
+      sum = sum + i;
+  
+    System.out.println("Sum = " + sum);
   }
 }

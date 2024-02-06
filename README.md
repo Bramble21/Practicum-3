@@ -1,17 +1,18 @@
-## Instructions
-## Practicum 4 - Keywords in Java
+# Instructions  
+
+## Practicum 3 - Identifier Naming in Java
 
 **BACKGROUND**<br>
-A `keyword` (or `reserved word`) in a programming language is an
-identifier defined within the programming language itself, 
-and therefore not available for the programmer to use for
-their own identifier naming. The current list of keywords in
-Java can be found here: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
+Different programming languages have their own rules for identifier
+naming. An `identifier` is a name that a programmer chooses for
+a newly defined item in a program, such as variables,
+functions and programmer-defined classes.
 
-In Java, all keywords contain all lower-case characters. Since
-Java is case sensitive, programmer-defined identifiers containing
-at least one upper-case character can be assumed NOT to be a
-Java keyword.
+In Java, identifiers must obey the following rules:
+
+- identifiers can only use the symbols a-z, A-Z, digits and the underscore character.
+- identifiers cannot begin with a digit
+- idenifiers are `case sensitive` (i.e., `num` is a different identifer than `Num`).
 
 **WHAT TO DO**<br>
-Make the keyword-related changes needed for the program to correctly execute.
+Make the identifier-related changes needed for the program to correctly execute.
